@@ -17,13 +17,13 @@ p{
 .flex-container{
 	height: 400px;
 	padding:20px;
-	display: flex;
-	flex-flow: row nowrap;
+	display: flex;			/* set display flex */
+	flex-flow: row nowrap;	/* flex-direction: row; flex-wrap:nowrap; */
 	justify-content: space-between;
 }
 .flex-item{
 	width: 150px;
-	margin: auto;
+	margin: auto;			/* when .flex-container displays flex, margin:auto; will let items be in center */
 	border: 1px solid #f00;
 }
 .item-first{
@@ -45,10 +45,10 @@ p{
 {
 	.flex-container{
 		flex-flow: row wrap;
-		align-items: flex-start;
+		align-items: flex-start;		/* let items float up */
 	}
 	.flex-item{
-		margin:0px;
+		margin:0px;					/* clear vertical center */
 	}
 	.item-fourth{
 		order: -1;
