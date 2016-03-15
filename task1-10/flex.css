@@ -37,7 +37,7 @@ p{
 }
 .item-fourth{
 	height: 200px;
-	border: 1px solid #0f0;
+	border: 1px solid #00f;		/* There should be #00f but not #0f0 */
 }
 
 /** For width less than 640px */
