@@ -45,7 +45,6 @@ p{
 {
 	.flex-container{
 		flex-flow: row wrap;
-		align-items: flex-start;		/* let items float up */
 	}
 	.flex-item{
 		margin:0px;					/* clear vertical center */
