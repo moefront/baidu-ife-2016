@@ -17,6 +17,8 @@ p{
 .flex-container{
 	height: 400px;
 	padding:20px;
+	display: -webkit-box;
+	display: -webkit-flex;	 /* for X5 & Android WebView */
 	display: flex;			/* set display flex */
 	flex-flow: row nowrap;	/* flex-direction: row; flex-wrap:nowrap; */
 	justify-content: space-between;
