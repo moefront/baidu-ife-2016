@@ -20,7 +20,9 @@ p{
 	display: -webkit-box;
 	display: -webkit-flex;	 /* for X5 & Android WebView */
 	display: flex;			/* set display flex */
-	flex-flow: row nowrap;	/* flex-direction: row; flex-wrap:nowrap; */
+	/*flex-flow: row nowrap;*/	/* row nowrap为默认属性~ */
+	/* flex-direction: row; flex-wrap:nowrap; */
+	-webkit-justify-content:space-between; /* for Safari*/
 	justify-content: space-between;
 }
 .flex-item{
