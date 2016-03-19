@@ -216,7 +216,6 @@ hr{
  }
  .article-content-container{
  	width: 100%;
- 	max-width: 248px;
  	padding: 0px 0px 20px 0px;
  	position: relative;
  }
@@ -251,6 +250,9 @@ hr{
  {
  	.article-title{
  		font-size: 18px;		/* 为屏幕小的设备调整字号 */
+ 	}
+ 	.article-content-container{
+ 		max-width: 248px;
  	}
  }
  @media screen and (min-width: 660px)
