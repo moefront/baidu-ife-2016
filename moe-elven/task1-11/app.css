@@ -1,0 +1,190 @@
+/*Reset*/
+body,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,figcaption,figure,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0}
+body,button,input,select,textarea{font:12px/1 "Helvetica Neue", Helvetica, STHeiTi, sans-serif, Lucida "Lucida Grande",'Microsoft YaHei',"Lucida Sans Unicode",Arial,Verdana}
+h1{font-size:18px;font-weight:normal}
+h2{font-size:16px;font-weight:normal}
+h3{font-size:14px;font-weight:normal}
+h4,h5,h6{font-size:100%;font-weight:normal}
+address,cite,dfn,em,var{font-style:normal}
+code,kbd,pre,samp,tt{font-family:"Courier New",Courier,monospace}
+small{font-size:12px}
+ul,ol,li{list-style:none}
+a{text-decoration:none}
+abbr[title],acronym[title]{border-bottom:1px dotted;cursor:help}
+q:before,q:after{content:''}
+legend{color:#000}
+fieldset,img{border:0}
+table{border-collapse:collapse;border-spacing:0}
+hr{border:0;height:1px}
+*{-ms-word-break:break-all;word-break:break-all;-ms-word-wrap:break-word;word-wrap:break-word;-webkit-tap-highlight-color:rgba(0,0,0,0)}
+body {
+    font-family: "Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+    background-color: #DDDDDD;
+}
+a, img {
+    -webkit-touch-callout: none; /* 禁止长按链接与图片弹出菜单 */
+}
+html, body {
+    -webkit-user-select: none;   /* 禁止选中文本（如无文本选中需求，此为必选项） */
+    user-select: none;
+}
+header {
+	font-size: 2.2em;
+    color: #FEFEF8;
+}
+.moe-header {
+	width: 100%;
+    height: 5rem;
+    background-color: #91D4DA;
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+
+
+}
+.moe-header a {
+    color: #FEFEF8;
+    padding: 20px;
+}
+.moe-header-title {
+	margin: auto;
+}
+.moe-nav {
+	width: 100%;
+	background-color: #FEFEF8;
+	height: 5rem;
+
+
+}
+.moe-nav-list {
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+	height: 100%;
+
+}
+.moe-nav-list-item {
+	/*消除border-bottom的向上偏移*/
+	height: 4.7rem;
+ 	line-height: 5rem;
+	font-size: 1.4rem;
+}
+.moe-nav-active {
+	border-bottom: 0.3rem solid #91D4DA;
+}
+.moe-banner {
+ 	width: 100%;
+ 	height: 27rem;
+ 	background-image: url('images/banner.png');
+ 	background-size: cover;
+ 	background-position: center; 
+}
+.moe-nav-tab {
+	height: 10rem;
+	width: 100%;
+	background-color: #FEFEF8;
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+ 	border-bottom: 0.5rem solid #DDDDDD;
+
+}
+.moe-nav-tab-item img {
+	height: 4.7rem;
+	border-radius: 49%;
+}
+.moe-nav-tab-item  .tab-text {
+	text-align: center;
+}
+.tab-text {
+	line-height: 1.7rem;
+	padding-bottom: -1rem;
+	font-size: 1.4rem;
+}
+
+.moe-col {
+	height: 24rem;
+	width: 100%;
+	background-color: #FEFEF8;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+ 	border-bottom: 1.5rem solid #DDDDDD;
+
+}
+.moe-col-item {
+	width: 33%;
+	margin: 0 auto;
+	text-align: center;
+	border-right: 0.3rem solid #DDDDDD;
+}
+
+.moe-col-item-3 {
+	border-right:0;
+
+}
+
+.moe-module {
+    background-color: #FFFFFF;
+    margin-top: 1.3rem;
+    padding: 1.3rem;
+ 	border-bottom: 1.5rem solid #DDDDDD;
+
+}
+ .moe-model-title {
+    border-bottom: 0.3rem solid #DDDDDD;
+    padding-bottom: 0.9rem;
+    margin-bottom: 0.9rem;
+}
+ .moe-model-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.5rem;
+
+}
+
+.moe-model-img {
+    width: 10rem;
+    height: 7.5rem;
+}
+.moe-model-right {
+    flex: 1;
+    margin-left: 0.6rem;
+}
+.moe-model-right-item {
+    background-color: #DDDDDD;
+    padding: 0.6rem;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+
+}
+
+.moe-article {
+	background-color: #FFFFFF;
+    margin-top: 1.3rem;
+    padding: 1.3rem;
+ 	border-bottom: 1.5rem solid #DDDDDD;
+ 	display: flex;
+ 	justify-content: space-around;
+ 	border-bottom: 0.1rem solid #DDDDDD;
+}
+.moe-article-right {
+	flex: 1;
+	font-size: 22px;
+	padding: 0.6rem;
+	margin-bottom: 0.5rem;
+	display: flex;
+ 	justify-content: space-between;
+    flex-direction: column;
+
+}
+.moe-article-image {
+	width: 10rem;
+    height: 7.5rem;
+}
+.moe-article-title-small {
+ 	font-size: 1rem;
+ 	color: #DDDDDD;
+}
