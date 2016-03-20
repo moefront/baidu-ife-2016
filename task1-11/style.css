@@ -94,7 +94,6 @@ hr{
 
  .header > .header-tags{
  	width: 100%;
- 	height: 100px;
  	margin: 1% 0px;
  	display: -webkit-box;
  	display: -webkit-flex;
@@ -113,8 +112,10 @@ hr{
  }
  .header > .header-tags > .tag-item > .tag-icon{
  	width: 100%;
+ 	padding: 5px;
  	margin-bottom: 5px;
  	border-radius: 360px;
+ 	box-sizing:border-box;
  }
  .header > .header-column{
  	width: 100%;
